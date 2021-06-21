@@ -18,7 +18,7 @@ Console command consist of 4 logical steps.
 - download file
 - parse xml file
 - transform data
-- save data in spreadsheet
+- save data in spreadsheet 
 From my perspective, better to cut first step in separate command. That will give more resilience to app. 
 Step `transform data` makes no sense in the current state, it exists only to show that in bigger app developers can use
 DTO and work with clear structured data. For DTO I don't use getters and setters. You can find more info in
